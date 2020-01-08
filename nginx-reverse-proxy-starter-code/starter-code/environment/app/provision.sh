@@ -20,7 +20,7 @@ sudo apt-get install nodejs -y
 # install pm2
 sudo npm install pm2 -g
 
-####
+# setting up the nginx reverse proxy 
 sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /home/ubuntu/environment/new_default /etc/nginx/sites-enabled/default
 
