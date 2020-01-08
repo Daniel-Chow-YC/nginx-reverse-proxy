@@ -3,6 +3,8 @@
 ## Nginx
 - Nginx is a web server which can also be used as a reverse proxy
 - The Nginx webserver acts as an intermediary for requests from clients so that the app cannot be directly accessed by users
+  - Nginx acts as a middle man. User request goes to nginx, nginx sends request to app, app sends response to nginx, nginx sends response to user.
+  - User request --> nginx --> app --> nginx --> response to user
 - When successfully set up users should be able to access the app from development.local and will not need to include the port number
 
 # Making the reverse proxy
